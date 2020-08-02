@@ -2,10 +2,45 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
 }
 
 h1 {
   font-style: italic;
   color: #373fff;
+}
+
+ul {
+  list-style-type: none;
+  margin; 0px;
+  padding: 0px;
+  
+}
+
+li{
+  display: inline;
+  float: left;
+  
+}
+
+li a{
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  
+  
+}
+
+li a:hover {
+  background-color: orange;
+  color: white;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+  
 }
