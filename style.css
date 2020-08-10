@@ -1,18 +1,27 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: Montserrat;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+
+
+/* navi */
+.nav {
+  background-color: black;
+  color: white;
+  height: 90px;
+  font-size: 30px;
+  
+  
 }
+
 
 ul {
   list-style-type: none;
   margin; 0px;
   padding: 0px;
+  
   
 }
 
@@ -20,14 +29,14 @@ li{
   display: inline;
   float: left;
   
+  
+  
 }
 
 li a{
   display: block;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 20px;
   
   
@@ -38,9 +47,13 @@ li a:hover {
   color: white;
 }
 
-.nav {
-  background-color: black;
-  color: white;
-  margin-top: 0px;
+
+
+.nav a{
+  text-decoration: none;
+  
   
 }
+
+
+/* end navi */
