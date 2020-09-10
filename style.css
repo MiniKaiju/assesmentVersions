@@ -160,9 +160,7 @@ li a:hover {        /* HOVER*/
 /* end of subTxt */
 
 .or {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  
+  font-size: 50px;
 }
 
 
@@ -218,4 +216,32 @@ li a:hover {        /* HOVER*/
   border-radius: 10px;
 }
   
-}
+  
+  .buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .buttons a {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+  }
+
+  .subTxt{
+    font-size: 10px;
+  } 
+  
+  .or{
+    font-size: 20px;
+    margin-bottom: -10px;
+  }
+  
+  
+  
+  
+  
+} /*SMALL SCREEN END*/
