@@ -2,11 +2,12 @@
 
 body {
   font-family: Montserrat;
+  font-size: 20px;
 }
 
 
 
-/* navi */
+    /* navi */
 .nav {
   width: 100%;
   background-color: black;
@@ -43,24 +44,23 @@ li a{                   /* link in a list*/
 }
 
 
-li a:hover {                /* HOVER*/
+li a:hover {        /* HOVER*/
   background-color: orange;
   color: black;
-  height:50px;
+  height: 50px;
 }
 
 
 
-.nav a{                    /*link in nav*/
+.nav a{            /*link in nav*/
   text-decoration: none; 
 }
 
-/* END navi */
+    /* END navi */
 
 
 
-
-/*donate*/
+      /*donate*/
 
 .donate {
   color: white;
@@ -73,10 +73,11 @@ li a:hover {                /* HOVER*/
   display: inline-block;
   padding-left: 100px;
   padding-right: 100px;
-  border-radius: 15px;
+  border-radius: 70px;
   background-color: orange;
   margin-top: 30px;
   font-weight: bold;
+  
   
 }
 
@@ -85,33 +86,162 @@ li a:hover {                /* HOVER*/
   background-color: black;
 }
 
-/* end donate*/
+      /* end donate*/
 
+
+
+      /* intro txt */
+
+.intro {
+  font-size: 35px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+    /* end intro txt*/
+
+
+    /* divider */
+.line {
+  background-color: black;
+  font-size: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+    /* divider end */
+
+
+    /* BUTTONS */
+.buttons a{
+  text-decoration: none;
+  font-size: 60px;
+  text-align: center;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  background-color: black;
+  margin-top: 30px;
+  color: white;
+  margin-left: 30px; 
+  margin-right: 30px; 
+}
+
+.buttons{
+  margin-bottom: 100px;
+  margin-left: -5%;
+  font-size: 50px;
+  text-align: center;
+}
+
+.buttons a:hover {        /* HOVER*/
+  background-color: orange;
+  color: black;
+  
+}
+
+    /* end of buttons... */
+
+
+    /* sub text in buttons*/
+
+.subTxt {
+  font-size: 20px;
+  padding-bottom: 10px; 
+}
+/* end of subTxt */
+
+.or {
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
+                                          /* --///SMALL SCREEN///-- */
 @media only screen and (max-width: 600px) {
   
-  .nav {
-  font-size: 15px;
+  .nav {                        /*NAVI*/
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;  /* DO NOT TOUCH */
+  padding-top: 3px;
   }
   
   li a:hover {                /* HOVER*/
   background-color: orange;
   color: black;
-  height:45px;
+  height:30px;
   }
   
 
   
-  .donate a{
+  .donate a{                  /*DONATE*/
   font-size: 30px;
   padding-left: 20px;
   padding-right: 20px; 
+  margin-top: 10px;
   }
   
-  body{
-    background-color: purple;
+  .intro{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
   }
   
-  
-  
+  .line {
+  background-color: black;
+  font-size: 3px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
+  
+  
+  .buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .buttons a {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+  }
+
+  .subTxt{
+    font-size: 10px;
+  } 
+  
+  .or{
+    font-size: 20px;
+    margin-bottom: -10px;
+  }
+  
+  
+  
+  
+  
+} /*SMALL SCREEN END*/
