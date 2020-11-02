@@ -5,36 +5,32 @@ body {
   font-size: 35px;
 }
 
-
 /****************************************NAVIGATION********************/
 /******************************************************************/
 
-    /* navi */
+/* navi */
 .nav {
   width: 100%;
   background-color: black;
   color: white;
-  height: 50px;
-  font-size: 20px; 
-  margin-top: -20px;  /* DO NOT TOUCH */
+  height: 70px;
+  font-size: 20px;
+  margin-top: -20px; /* DO NOT TOUCH */
 }
-
 
 ul {
   list-style-type: none;
-  margin; 0px;
+  margin: 0px;
   padding: 0px;
 }
 
-
-li{
+li {
   display: inline;
   float: left;
-  
 }
 
-
-li a{                   /* link in a list*/
+li a {
+  /* link in a list*/
   display: block;
   padding-left: 10px;
   padding-right: 10px;
@@ -42,33 +38,29 @@ li a{                   /* link in a list*/
   height: auto;
   padding-top: 10px;
   font-weight: bold;
-  
 }
 
-
-li a:hover {        /* HOVER*/
+li a:hover {
+  /* HOVER*/
   background-color: orange;
   color: black;
   height: 50px;
 }
 
-
-
-.nav a{            /*link in nav*/
-  text-decoration: none; 
+.nav a {
+  /*link in nav*/
+  text-decoration: none;
 }
 
-  /********************************** END NAVIGATION ********************/
+/********************************** END NAVIGATION ********************/
 
-
-
- /**************************************DONATE BUTTON**********************/
+/**************************************DONATE BUTTON**********************/
 
 .donate {
   color: white;
 }
 
-.donate a{
+.donate a {
   text-decoration: none;
   font-size: 80px;
   text-align: center;
@@ -79,20 +71,16 @@ li a:hover {        /* HOVER*/
   background-color: orange;
   margin-top: 30px;
   font-weight: bold;
-  
-  
 }
 
- a:hover {
+a:hover {
   color: white;
   background-color: black;
 }
 
-  /****************************** END DONATE ******************************/
+/****************************** END DONATE ******************************/
 
-
-
-  /************************** INTRO TXT ******************************/
+/************************** INTRO TXT ******************************/
 
 .intro {
   font-size: 35px;
@@ -105,14 +93,9 @@ li a:hover {        /* HOVER*/
   text-align: center;
 }
 
-   /************************ END INTRO *************************/
+/************************ END INTRO *************************/
 
-
-
-
-
-
-   /************** DIVIDER ************/
+/************** DIVIDER ************/
 /**********************************/
 .line {
   background-color: black;
@@ -123,20 +106,13 @@ li a:hover {        /* HOVER*/
   border-radius: 10px;
 }
 
- /************** END DIVIDER **********/
-
-
-
-
-
-
+/************** END DIVIDER **********/
 
 /*************************************************** H O M E P A G E************************************************************************/
 /***************************************************************************************************************************************/
 
-
 /***************************************** BUTTONS ***********************/
-.buttons a{
+.buttons a {
   text-decoration: none;
   font-size: 80px;
   text-align: center;
@@ -146,10 +122,9 @@ li a:hover {        /* HOVER*/
   border-radius: 15px;
   background-color: black;
   color: white;
-  
 }
 
-.buttons{
+.buttons {
   margin-bottom: 100px;
   font-size: 50px;
   margin-top: 70px;
@@ -157,24 +132,20 @@ li a:hover {        /* HOVER*/
   margin-left: 160px;
 }
 
-.buttons a:hover {        /* HOVER*/
+.buttons a:hover {
+  /* HOVER*/
   background-color: orange;
   color: black;
-  
 }
 /***********************************************/
 
-
-
- /*****SUB TXT FOR BUTTONS *********/
+/*****SUB TXT FOR BUTTONS *********/
 
 .subTxt {
   font-size: 20px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
- /******  END SUB TXT ************/
-
-
+/******  END SUB TXT ************/
 
 /******** ITS JUST THE WORD OR **********/
 .or {
@@ -185,14 +156,11 @@ li a:hover {        /* HOVER*/
 }
 /****************** OR END ***********/
 
-
 /*********************************** END BUTTONS *****************/
-
-
 
 /*****************************FOOTER****************************/
 
-.footer{
+.footer {
   background-color: black;
   color: white;
   padding-top: 40px;
@@ -200,36 +168,27 @@ li a:hover {        /* HOVER*/
   padding-left: 30px;
 }
 
-
 /****** mini header for footer*******/
-.footerHead{
+.footerHead {
   font-weight: bold;
 }
 /***********************************/
 
-.orangeTxt{
+.orangeTxt {
   color: orange;
   padding-top: 10px;
 }
 
-.footerTxt{
+.footerTxt {
   font-size: 15px;
 }
 
 /*********************** FOOTER END **************************/
 
-
-
-
-
-
-
-
 /*************************************************** A B O U T P A G E************************************************************************/
 /***********************************************************************************************************************************/
 
-
-.bodyTxtHead{
+.bodyTxtHead {
   font-weight: bold;
   text-align: center;
   font-size: 60px;
@@ -237,19 +196,16 @@ li a:hover {        /* HOVER*/
   margin-bottom: 50px;
 }
 
-
-.aboutDesc{
+.aboutDesc {
   text-align: center;
   padding-left: 70px;
   padding-right: 70px;
   margin-bottom: 60px;
 }
 
-
 .appreciated {
   width: auto;
 }
-
 
 /********************************************************** C O N T A C T  U S***********************************************/
 /************************************************************************************************************************/
@@ -258,26 +214,17 @@ li a:hover {        /* HOVER*/
   margin-bottom: 30px;
 }
 
-
-
 .contactTxtSegments {
   font-weight: bold;
   font-size: 50px;
 }
 
-.contactTxtInfo{
+.contactTxtInfo {
   margin-bottom: 50px;
 }
 
-
-
-
-
-
-
 /********************************************************** D O N A T E***********************************************/
 /*****************************************************************************************************************************/
-
 
 .donatePara {
   margin-top: 100px;
@@ -288,72 +235,50 @@ li a:hover {        /* HOVER*/
   margin-bottom: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*****************************************************************************************************************************/
 
-.appreciate{
+.appreciate {
   background-color: white;
-  
 }
-
-
-
-
-
-
-
-
 
 /************************************************ ---SMALL SCREEN--- *********************************/
 
 @media only screen and (max-width: 600px) {
-  
-  
   /********** NAVI *************************/
-  
-  .nav {  
-  font-size: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -20px;  /* DO NOT TOUCH */
-  padding-top: 3px;
+
+  .nav {
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px; /* DO NOT TOUCH */
+    padding-top: 3px;
   }
-  
-  li a:hover {                /* HOVER*/
-  background-color: orange;
-  color: black;
-  height:30px;
+
+  li a:hover {
+    /* HOVER*/
+    background-color: orange;
+    color: black;
+    height: 40px;
   }
-  
+
+  li a {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   /**********  END NAVI *************************/
 
-  
-  
   /**************** DONATE *************/
-  .donate a{     
-  font-size: 30px;
-  padding-left: 20px;
-  padding-right: 20px; 
-  margin-top: 10px;
+  .donate a {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
   }
   /****************** END DONATE ********************/
-  
-  
-    /********** INTRO TXT *************************/
-  .intro{
+
+  /********** INTRO TXT *************************/
+  .intro {
     font-size: 15px;
     margin-left: 10px;
     margin-right: 10px;
@@ -363,24 +288,17 @@ li a:hover {        /* HOVER*/
     margin-bottom: 10px;
   }
   /********** END INTRO TXT *************************/
-  
-  
-  
-  
+
   /********** L I N E ******************************/
   /*********************************************/
   .line {
-  background-color: black;
-  font-size: 3px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-/***************** end of the line....hahahahaha ******************/
-  
-  
-  
-  
-  
+    background-color: black;
+    font-size: 3px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  /***************** end of the line....hahahahaha ******************/
+
   /****************** BUTTONS **********************/
   .buttons {
     margin-top: -30px;
@@ -388,117 +306,97 @@ li a:hover {        /* HOVER*/
     margin-left: 10px;
     margin-right: 10px;
   }
-  
+
   .buttons a {
     font-size: 20px;
   }
 
- /******* END BUTTONS ***************/ 
-  
-  
-  
-  
+  /******* END BUTTONS ***************/
+
   /********** extra button bits ************/
-  .subTxt{
+  .subTxt {
     font-size: 10px;
-  } 
-  
-  .or{
+  }
+
+  .or {
     font-size: 20px;
     margin-bottom: 10px;
     margin-left: 1px;
     margin-top: 10px;
   }
   /********* END EXTRA BITS ****************/
-  
-  
+
   /***************CONTACT TXT************/
   .contactTxt {
-  margin-bottom: 30px;
-}
+    margin-bottom: 30px;
+  }
 
-.contactTxtSegments {
-  font-weight: bold;
-  font-size: 20px;
-}
+  .contactTxtSegments {
+    font-weight: bold;
+    font-size: 20px;
+  }
 
-.contactTxtInfo{
-  margin-bottom: 10px;
-  font-size: 10px;
-}
-  
-/****************************************/  
-  
-  
+  .contactTxtInfo {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  /****************************************/
+
   /*****************************appreciate****************/
-  
-  .appreciate img{
+
+  .appreciate img {
     width: 100%;
   }
-  
+
   /*******************************************************/
-  
-  
-  
-  
-  
+
   /***********************about page************************/
-  
-  .bodyTxtHead{
+
+  .bodyTxtHead {
     margin-top: 10px;
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 10px;
   }
-  
-  .aboutDesc{
+
+  .aboutDesc {
     font-size: 15px;
   }
-  
+
   /*********************************************************/
-  
-  
+
   /*************** tiny donate *********************/
-  
-  .donatePara{
+
+  .donatePara {
     font-size: 15px;
     margin-top: 10px;
   }
-  
-  .donateTxt{
+
+  .donateTxt {
     margin-bottom: 15px;
   }
-  
-  
-  
+
   /*********************************************************/
-  
-  
-  
-  
+
   /**************** tiny footer *********************/
-  
-  .footer{
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-left: 30px;
-}
-  
-  .footerTxt{
+
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+  }
+
+  .footerTxt {
     font-size: 10px;
   }
-  
-  .orangeTxt{
+
+  .orangeTxt {
     font-size: 10px;
   }
-  
-  .footerHead{
+
+  .footerHead {
     font-size: 20px;
   }
-  
-  
-  
-  
-  
 } /* <----dont touch this */
 /***************** -----MEDIA----- *******************************/
